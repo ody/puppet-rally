@@ -11,6 +11,6 @@ class rally {
 
   include ::rally::params
 
-
+  package { 'openstack-rally': ensure => present }
 
 }
